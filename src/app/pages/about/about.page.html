@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Ayuda</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Ayuda</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div class="ion-text-center">
+    <div id="mylogo"> </div>
+  	<p text-center>Aplicación corporativa de la Junta de Andalucia</p>
+  	<p text-center>Versión {{version}}</p>
+  	<ion-button expand="block" (click)="openAyuda ()">Ayuda</ion-button>
+  	<ion-button expand="block" (click)="openSoporte ()">Soporte</ion-button>
+  </div>
+</ion-content>

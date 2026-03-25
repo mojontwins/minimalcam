@@ -1,0 +1,28 @@
+@media (prefers-color-scheme:light) {
+  #mylogo {
+    background-image: url("/assets/imgs/jda.png");
+    height: 100px;
+    width: auto;
+    margin: 16px auto auto auto;
+    display: block;
+
+    background-repeat: no-repeat, repeat;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+  }
+}
+
+@media (prefers-color-scheme:dark) {
+  #mylogo {
+    background-image: url("/assets/imgs/jda-dark.png");
+    height: 100px;
+    width: auto;
+    margin: 16px auto auto auto;
+    display: block;
+    background-repeat: no-repeat, repeat;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain;
+  }
+}

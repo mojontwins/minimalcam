@@ -1,0 +1,7 @@
+{
+  "name": "minimalcam",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
